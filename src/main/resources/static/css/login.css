@@ -1,0 +1,88 @@
+.cm_login_title{
+	margin-top: 20px;
+	text-align:center;
+	font-size: 24px;
+	text-shadow: 0px -1px  #bbb,0 1px #fff;
+	color:#e3e1e1;
+	letter-spacing:6px;
+	font-family: "幼圆","微软雅黑", Verdana; 
+	}
+#cm_tips{
+	text-align:center;
+	color: #e3e1e1;
+	text-shadow: 0px -1px  #bbb,0 1px #fff;
+	letter-spacing:2px;
+	margin-top: 50px;
+	font-family: "幼圆","微软雅黑", Verdana;
+}	 
+#cm_regist-main { 
+	height: 420px;
+	position: relative;
+	font-size: 14px;
+	font-family: "幼圆","微软雅黑", Verdana;
+}
+ol {
+	list-style: none;
+} 
+#cm_login {
+	height: 240px;
+	position: relative;
+	border: 1px solid #d7d7d7;
+	box-shadow: 0 0 10px #d7d7d7;
+	background-color: #fff;
+	position: absolute;
+	width: 382px;
+	top: 80px;
+	left: 300px;
+	color: #818181;
+}  
+#cm_regist-main a {
+	text-decoration: none;
+}
+#cm_regist-main a:hover {
+	text-decoration: underline;
+}
+#cm_login ol {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+#cm_login li {
+	line-height: 30px;
+}
+#cm_login li input {
+	width: 295px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccd1d5;
+	display: block; 
+}
+#cm_login input.btn-submit {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	color: #fff;
+	top: 180px;
+	left: 140px;
+	border: 0;
+	font-family: "幼圆","微软雅黑", Verdana;
+	font-size: 18px;
+	letter-spacing:1px;
+	background: url(bt1.png) no-repeat;
+}
+#cm_login input.btn-submit:hover {
+	background: url(bt2.png) no-repeat;
+} 
+  
+#cm_login #tips_uN,#cm_login #tips_uP { 
+	color: #BF1623;
+	text-align:right;
+	float:right;
+	margin-right:45px;
+} 
+ 
+
+

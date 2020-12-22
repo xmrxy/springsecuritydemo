@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<img src="css/bg_1024.jpg" class="bg_1024">
+
+<div class="cm_login_title">登录</div>
+<div id="cm_regist-main">
+    <form action="/doLogin" method="post" id="loginForm">
+        <div id="cm_login">
+            <ol>
+                <li>
+                    <label for="uN">账号：</label>
+                    <input id="uN" name="name" type="text"  title="输入您的登录账号 ">
+                </li>
+                <li>
+                    <label for="uP">密<span style="color:#fff;">__</span>码：</label>
+                    <input id="uP" name="pass" type="password" >
+                </li>
+            </ol>
+            <input type="submit" value="登录系统" class="btn-submit" >
+        </div>
+    </form>
+</div>
+</body>
+</html>
